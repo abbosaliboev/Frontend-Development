@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+main{
+    margin: 40px 40px;
+    width: auto;
+    height: calc(100vh - 100px);
+    
+}
+
+h1{
+    color: var(--text-text-1, #121619);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 84px; /* 116.667% */
+    letter-spacing: -0.36px;
+}
+h2{
+    align-self: stretch;
+    color: var(--Primary, #05F);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 70px; /* 145.833% */
+}
+.grid{
+    display: grid;
+    padding: 40px;
+    justify-content: center;
+    width: auto;
+    height: calc(100vh - 180px - 155px);
+    grid-template-columns: 265px 265px 265px 265px;
+    grid-template-rows: 250px 250px 250px 250px;
+    gap: 24px;
+}
+
+.grid-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    
+    flex: 1 0 0;
+    
+    border-radius: 16px;
+    
+
+    /* Shadow Display */
+    box-shadow: 0px 4px 24px 0px rgba(0, 51, 153, 0.16);
+}
+img{
+    border-radius: 100%;
+
+}
+.img-box{
+    display: flex;
+    position: relative;
+}
+
+.icon-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+  
+    flex-shrink: 0;
+
+    border-radius: 1000px;
+    border: 3px solid var(--background-white, #FFF);
+    background: var(--Primary, #05F);
+    position: absolute;
+    right: 0; 
+    bottom: 0; 
+}
+
+
+.grid-p-1{
+    align-self: stretch;
+    padding-top: 15px;
+    color: var(--text-text-1, #121619);
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+}
+.grid-p-2{
+
+
+    align-self: stretch;
+
+    color: var(--text-text-2, #4D5358);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}

@@ -1,0 +1,850 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+
+    width: 1440px;
+    height: 68px;
+
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+
+}
+
+header div:nth-child(1) a{
+    color: #000;
+    font-size: 20px;
+}
+header div:nth-child(2) a{
+    color: #000;
+    font-size: 14px;
+} 
+header div a:hover{
+    color: #03905c;
+}
+header div:nth-child(2) button{
+    width: 90px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #04AA6D;
+    border: 0;
+    color: white;
+    cursor: pointer;
+}
+
+header div:nth-child(2) button:hover{
+    background: #03905c;
+
+}
+
+
+
+/* ------------------------------------------------- */
+
+
+
+.main-1{
+    width: 1440px;
+    height: 439px;
+    flex-shrink: 0;
+    background: #282A35;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.main-1 aside:nth-child(1){
+
+
+    margin: 77px 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.main-1 aside:nth-child(1) p:nth-child(1){
+    color: #FFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 96px;
+    font-weight: 700;
+
+}
+.main-1 aside:nth-child(1) p:nth-child(2){
+
+    flex-shrink: 0;
+
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+
+}
+
+#button-1{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #04AA6D;
+    border: 0;
+
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+#button-1:hover{
+    background-color: #03905c;
+}
+#button-2{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #FFF;
+    border: 0;
+
+    color: #000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    cursor: pointer;
+}
+#button-2:hover{
+
+    background-color:#ffffffe8
+}
+.main-1 aside:nth-child(2){
+    width: 514px;
+    height: 335px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #E7E9EB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    margin: 52px 44px;
+}
+.main-1 aside:nth-child(2) .container-p{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 10px;
+
+    border-radius: 10px;
+    background: #011627;
+    gap: 20px;
+
+}
+.main-1 aside:nth-child(2) .container-p div:nth-child(1) {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+
+}
+span{
+    color: #B084EB;
+}
+.main-1 aside:nth-child(2) .container-p div:nth-child(2) {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.main-1 aside:nth-child(2) .container-p div:nth-child(3) {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+}
+
+#button-3{
+    width: 156px;
+    height: 37px;
+    border-radius: 20px;
+    background: #04AA6D;
+    border: 0;
+    color: white;
+    margin: 15px 10px;
+
+    color: #FFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+#button-3:hover{
+    background: #03905c;
+
+}
+
+
+.main-1 aside:nth-child(2) h4{
+
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 27px 13px;
+
+}
+
+span{
+    color: #7FDBCA;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.text-white{
+    color: #FFF;
+}
+
+.main-1 aside:nth-child(2) .container-p div:nth-child(1) .doctype{
+
+    color: #B084EB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-1 aside:nth-child(2) .container-p .html {
+
+    color: #F78C6C;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+
+/* ------------------------------------------ */
+
+
+
+
+
+
+
+
+
+.main-2{
+
+    width: 1440px;
+    height: 333px;
+    flex-shrink: 0;
+    background-color: #D9EEE1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-2 aside:nth-child(1){
+
+    
+    margin: 0px 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.main-2 aside:nth-child(1) p:nth-child(1){
+    color: #000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 96px;
+    font-weight: 600;
+    padding: 20px;
+
+    
+
+}
+
+
+#button-1-2{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #04AA6D;
+    border: 0;
+
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+#button-1-2:hover{
+    background-color: #03905c;
+}
+#button-2-2{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #282A35;
+    border: 0;
+
+    color: #FFF;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+#button-2-2:hover{
+
+    background-color:#000;
+    
+
+}
+
+
+.main-2 aside:nth-child(2){
+
+    width: 514px;
+    height: 276px;
+    flex-shrink: 0;
+
+    margin: 25px 44px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #E7E9EB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+
+  
+}
+.main-2 aside:nth-child(2) .container-p{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 10px;
+
+    border-radius: 10px;
+    background: #011627;
+    gap: 20px;
+
+}
+.main-2 aside:nth-child(2) .container-p div:nth-child(1) {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+
+}
+.text-violet{
+    color: #B084EB;
+}
+.text-green{
+    color: #ADDB67;
+}
+.text-yellow{
+    color: #FFEB95;
+}
+.main-2 aside:nth-child(2) .container-p div:nth-child(2) {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+#button-3-2{
+    width: 156px;
+    height: 37px;
+    border-radius: 20px;
+    background: #04AA6D;
+    border: 0;
+    color: white;
+    margin: 15px 10px;
+
+    color: #FFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+#button-3-2:hover{
+    background: #03905c;
+
+}
+
+
+.main-2 aside:nth-child(2) h4{
+
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 27px 13px;
+
+}
+
+span{
+    color: #7FDBCA;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.text-white{
+    color: #FFF;
+}
+
+.main-2 aside:nth-child(2) .container-p div:nth-child(1) .doctype{
+
+    color: #B084EB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-2 aside:nth-child(2) .container-p .html {
+
+    color: #F78C6C;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+
+
+/* -------------------------------------------------- */
+
+
+
+
+
+.main-3{
+    width: 1440px;
+    height: 412px;
+    flex-shrink: 0;
+    background: #FFF4A3;
+
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.main-3 aside:nth-child(1){
+
+    margin: 0px 58px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.main-3 aside:nth-child(1) p:nth-child(1){
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+    
+}
+.main-3 aside:nth-child(1) p:nth-child(2){
+
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#button-1-3{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #04AA6D;
+    border: 0;
+
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+#button-1-3:hover{
+    background-color: #03905c;
+}
+#button-2-3{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #282A35;
+    border: 0;
+
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    cursor: pointer;
+}
+#button-2-3:hover{
+
+    background-color:#000;
+    
+}
+
+
+.main-3 aside:nth-child(2){
+
+    width: 514px;
+    height: 315px;
+    flex-shrink: 0;
+
+    margin: 50px 44px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #E7E9EB;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    flex-direction: column;
+  
+}
+.main-3 aside:nth-child(2) .container-p{
+    display: flex;
+    flex-direction: column;
+    width: 490px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    margin-left: 10px;
+
+    border-radius: 10px;
+    background: #011627;
+    gap: 20px;
+
+}
+.main-3 aside:nth-child(2) .container-p div:nth-child(1) {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+
+
+}
+.text-violet{
+    color: #B084EB;
+}
+.text-green{
+    color: #ADDB67;
+}
+.text-yellow{
+    color: #FFEB95;
+}
+.main-3 aside:nth-child(2) .container-p div:nth-child(2) {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+
+#button-3-3{
+    width: 156px;
+    height: 37px;
+    border-radius: 20px;
+    background: #04AA6D;
+    border: 0;
+    color: white;
+    margin: 15px 10px;
+
+    color: #FFF;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+#button-3-3:hover{
+    background: #03905c;
+
+}
+
+
+.main-3 aside:nth-child(2) h4{
+
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 27px 13px;
+
+}
+
+span{
+    color: #7FDBCA;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.text-white{
+    color: #FFF;
+}
+
+.main-3 aside:nth-child(2) .container-p div:nth-child(1) .doctype{
+
+    color: #B084EB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-3 aside:nth-child(2) .container-p .html {
+
+    color: #F78C6C;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+
+}
+
+
+
+/* ---------------------------------------------------- */
+
+
+
+.main-4{
+    width: 1438px;
+    height: 450px;
+    flex-shrink: 0;
+    background: #282A35;
+
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding: 0px 100px;
+    
+    
+}
+
+.main-4 aside:nth-child(1) {
+    width: 505px;
+    height: 269px;
+    flex-shrink: 0;
+    
+    border-radius: 10px;
+    background: #FFC0C7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main-4 aside:nth-child(1) div p:nth-child(1) {
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+
+}
+
+.main-4 aside:nth-child(1) div p:nth-child(2) {
+
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    padding-bottom: 30px;
+}
+
+#button1-4{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border: 0;
+    
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 55px;
+    background-color: #282A35;
+    cursor: pointer;
+}
+
+#button1-4:hover{
+    background-color: #000;
+}
+
+
+
+.main-4 aside:nth-child(2){
+    width: 505px;
+    height: 269px;
+
+    
+    border-radius: 10px;
+    background: #FFF4A3;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+
+
+.main-4 aside:nth-child(2) div p:nth-child(1) {
+
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-4 aside:nth-child(2) div p:nth-child(2) {
+
+    color: #000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+#button2-4{
+    width: 180px;
+    height: 42px;
+    flex-shrink: 0;
+    border: 0;
+    
+    color: #FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 55px;
+    
+    background-color: #282A35;
+    cursor: pointer;
+}
+
+#button2-4:hover{
+    background-color: #000;
+}
