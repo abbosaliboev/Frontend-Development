@@ -1,0 +1,29 @@
+.grid-container-2{
+    display: grid;
+    grid-template-columns: 519px 519px 519px;
+    grid-template-rows: 579px 579px;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 38px;
+    
+    margin-bottom: 80px;
+}
+.box:first-child .image-box{
+    background-image: url("/images/3-1.png");
+}
+.box:nth-child(2) .image-box{
+    background-image: url("/images/3-2.png");
+}
+.box:nth-child(3) .image-box{
+    background-image: url("/images/3-3.png");
+}
+.box:nth-child(4) .image-box{
+    background-image: url("/images/3-4.png");
+}
+.box:nth-child(5) .image-box{
+    background-image: url("/images/3-5.png");
+}
+.box:last-child .image-box{
+    background-image: url("/images/3-6.png");
+}
+

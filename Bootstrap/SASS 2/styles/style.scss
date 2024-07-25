@@ -1,0 +1,21 @@
+@import "./colors/colors";
+@import "./pages/main-1";
+@import "./pages/main-2";
+@import "./pages/main-3";
+@import "./pages/main-4";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.main-1{
+    background: url(/images/back-img-1.png) lightgray 50% / cover no-repeat;
+}
+.main-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/back-img-2.png) center / cover no-repeat;
+    height: 1080px;
+}

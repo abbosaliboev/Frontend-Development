@@ -1,0 +1,28 @@
+
+.main-3-container{
+
+    display: flex;
+    justify-content: center;
+    padding: 360px 142px;
+    gap: 52px;
+
+    div:nth-child(2){
+        background: rgba(255, 255, 255, 0.40);
+        backdrop-filter: blur(15px);
+        padding: 40px 45px;
+
+        h4{
+            color: #FFE600;
+            font-size: 36px;
+            font-weight: 700;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: 26px;
+            overflow-y: auto; 
+            max-height: 370px;
+            color: #FFF;
+        }
+    }
+}
