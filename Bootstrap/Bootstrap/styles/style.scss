@@ -1,0 +1,12 @@
+@import "./parts/head";
+@import "./parts/main";
+@import "./parts/aside-left";
+@import "./parts/aside-right";
+
+$primaryColorr: #2F9FF8;
+
+
+body{
+    background: #F4F9F8;
+    font-family: "Roboto";
+}

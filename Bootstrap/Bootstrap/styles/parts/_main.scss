@@ -1,0 +1,224 @@
+.col-lg-7{
+    padding-right: 50px;
+
+    .row{
+        margin: 0px 0px;
+
+        .container{
+            padding: 0px;
+        }
+    }
+}
+
+.mb-3{
+    margin-top: 40px;
+
+    h2{
+        font-size: 20px;
+        font-weight: 700;
+        margin-bottom: 22px;
+    }
+    .btn-group{
+        gap: 10px;
+        .btn{
+            border-radius: 20px 20px 20px 20px !important;
+            padding: 6px 17px;
+            background-color: white;
+            color: var(--amber-black, #072D4B);
+            font-size: 15px;
+            border: 0;
+
+            &:hover{
+                background-color: #2F9FF8 ;
+                color: white;
+            }
+        }
+        a{
+            cursor: pointer;
+        }
+
+    }
+
+}
+
+.news-card {
+    gap: 17px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #d656561a;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 17px 23px;
+    
+
+    .img1{
+        border-radius: 10px;
+        width: 172.353px;
+
+    }
+}
+
+.news-card .card-body {
+    .bottom-text{
+        align-items: center;
+        p{
+            opacity: 0.4;
+            margin: 0;
+            margin-right: 80px;
+        }
+        button{
+            text-decoration: none;
+            color: #0768B5;
+            font-size: 12px;
+            font-weight: 400;
+        }
+    }
+    .card-title {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px; /* 141.176% */
+    }
+    .card-text {
+        color: #6c757d;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .btn {
+        color: #007bff;
+    }
+}
+
+.mini-card {
+    gap: 17px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #d656561a;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 17px 23px;
+    
+
+    .img1{
+        border-radius: 10px;
+        width: 134.141px;
+
+    }
+}
+
+.mini-card {
+    .bottom-text{
+        align-items: center;
+        justify-content: space-between;
+        p{
+            opacity: 0.4;
+            margin: 0;
+        }
+        button{
+            text-decoration: none;
+            color: #0768B5;
+            font-size: 12px;
+            font-weight: 400;
+            margin-right: 0;
+        }
+    }
+    .p-text{
+        padding-right: 10px;
+    }
+    .card-title {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px; /* 141.176% */
+    }
+    p{
+        color: var(--amber-black, #072D4B);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px; /* 157.143% */
+        opacity: 0.6;
+        margin-top: 9px;
+    }
+    .card-text {
+        color: #6c757d;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .btn {
+        color: #007bff;
+    }
+}
+
+.creator-cards{
+    nav{
+        img{
+            padding-right: 12px;
+        }
+        div{
+            gap: 14px;
+        }
+    }
+}
+
+.cards{
+    justify-content: space-between;
+
+    .col-md-2{
+        padding: 0;
+    }
+    .card{
+        width: 142px; 
+        padding: 13px;
+        border-radius: 4px;
+        background: #FFF;
+        box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+        border: 0;
+        img{
+            width: 70px;
+        }
+    }
+    .card-body{
+        padding: 0;
+        .card-title{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            margin: 0;
+            padding-top: 7px;
+        }
+        p{
+            text-align: center;
+            font-size: 12px;
+            line-height: 22px; /* 183.333% */
+            opacity: 0.4;
+            margin-bottom: 7px;
+        }
+        a{
+            width: 100%;
+            background-color: rgba(47, 159, 248, 1);
+            border: none;
+        }
+    }
+    
+}
+.more-btn{
+    text-align: center;
+    margin-bottom: 60px;
+    button{
+        color: var(--amber-black, #072D4B);
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        border-radius: 4px;
+        border: 0.2px solid var(--amber-black, #072D4B);
+    }
+}
+hr{
+    height: 0.1px;
+    background: #072D4B;
+}
+.last-p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px; /* 183.333% */
+    opacity: 0.4;
+}
