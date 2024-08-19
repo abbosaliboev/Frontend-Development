@@ -1,0 +1,18 @@
+header{
+    form{
+        border-radius: 4px;
+        background: rgba(47, 159, 248, 0.04) !important;
+    }
+    input{
+        background-color: transparent !important;
+        padding: 14px !important;
+        &::placeholder{
+            color: rgba(7, 45, 75, 0.30) !important;
+            font-size: 15px;
+        }
+        }
+    img{
+        padding-right: 15px;
+        padding-left: 10px;
+    }
+}

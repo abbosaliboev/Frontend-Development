@@ -1,0 +1,321 @@
+.col-lg-7{
+    padding-right: 50px;
+
+    .row{
+        margin: 0px 0px;
+
+        .container{
+            padding: 0px;
+        }
+    }
+}
+
+.mb-3{
+    margin-top: 20px;
+
+    h2{
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 34px;
+        margin-bottom: 14px;
+    }
+    .btn-group{
+        gap: 10px;
+        .btn{
+            border-radius: 4px !important;
+            padding: 4px 12px;
+            background: rgba(47, 159, 248, 0.2);
+            color: var(--sky-blue, #2F9FF8);
+            border: none;
+            &:hover{
+                background-color: #2F9FF8 ;
+                color: white;
+            }
+        }
+        a{
+            cursor: pointer;
+        }
+
+    }
+}
+
+h4{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px; /* 117.647% */
+    opacity: 0.6;
+    padding: 4px 0px 24px 0px;
+}
+
+.p-1{
+    padding: 38px 0px 28px 0px !important;
+    margin: 0;
+}
+.p-2{
+    padding: 0px 0px 24px 0px !important;
+    margin: 0;
+}
+.p-container{
+    gap: 17px;
+    padding-bottom: 12px;
+    .blue-box{
+        width: 13px;
+        height: 13px;
+        background: var(--sky-blue, #2F9FF8);
+    }
+}
+#p{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px; /* 164.706% */
+    opacity: 0.6;
+}
+.dates{
+    text-align: center;
+    .p-data{
+        margin: 0;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px; /* 233.333% */
+        opacity: 0.3;
+    }
+    .p-name{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    a{
+        color: rgba(47, 159, 248, 1);
+        font-size: 12px;
+    }
+    
+}
+
+.mini-card {
+    gap: 17px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px #d656561a;
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 17px 23px;
+    
+
+    .img1{
+        border-radius: 10px;
+        width: 134.141px;
+
+    }
+}
+
+.mini-card {
+    .bottom-text{
+        align-items: center;
+        justify-content: space-between;
+        p{
+            opacity: 0.4;
+            margin: 0;
+        }
+        button{
+            text-decoration: none;
+            color: #0768B5;
+            font-size: 12px;
+            font-weight: 400;
+            margin-right: 0;
+        }
+    }
+    .p-text{
+        padding-right: 10px;
+    }
+    .card-title {
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 24px; /* 141.176% */
+    }
+    p{
+        color: var(--amber-black, #072D4B);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px; /* 157.143% */
+        opacity: 0.6;
+        margin-top: 9px;
+    }
+    .card-text {
+        color: #6c757d;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .btn {
+        color: #007bff;
+    }
+}
+
+.creator-cards{
+    nav{
+        img{
+            padding-right: 12px;
+        }
+        div{
+            gap: 14px;
+        }
+    }
+}
+
+.cards{
+    justify-content: space-between;
+
+    .col-md-2{
+        padding: 0;
+    }
+    .card{
+        width: 142px; 
+        padding: 13px;
+        border-radius: 4px;
+        background: #FFF;
+        box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+        border: 0;
+        img{
+            width: 70px;
+        }
+    }
+    .card-body{
+        padding: 0;
+        .card-title{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            margin: 0;
+            padding-top: 7px;
+        }
+        p{
+            text-align: center;
+            font-size: 12px;
+            line-height: 22px; /* 183.333% */
+            opacity: 0.4;
+            margin-bottom: 7px;
+        }
+        a{
+            width: 100%;
+            background-color: rgba(47, 159, 248, 1);
+            border: none;
+        }
+    }
+    
+}
+hr{
+    height: 0.1px;
+    background: #072D4B;
+}
+.last-p{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px; /* 183.333% */
+    opacity: 0.4;
+}
+.comment-p{
+    padding-bottom: 10px;
+    p{
+        margin: 0;
+        color: var(--amber-black, #072D4B);
+        font-size: 17px;
+        font-weight: 700;
+    }
+    hr{
+        height: 0.1px !important;
+        background: #072D4B;
+        width: 78%;
+        margin: 0;
+        opacity: 0.1;
+    }
+}
+.form-floating{
+    textarea{
+        border-radius: 4px;
+        background: #ECF5F8;
+        border: none;
+    }
+    label{
+        color: rgba(7, 45, 75, 0.30);
+        font-size: 15px;
+        font-weight: 400;
+    }
+}
+.comment-button{
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 4px;
+    background: var(--sky-blue, #2F9FF8);
+    border: none;
+    padding: 10px 30px;
+    margin-top: 11px;
+    border: #2F9FF8 1px solid;
+}
+.comment-button:hover{
+    background-color: white;
+    color: #2F9FF8;
+}
+.accordion-item{
+    padding-top: 20px;
+    button{
+        color: var(--sky-blue, #2F9FF8);
+        font-size: 17px;
+        font-weight: 500;
+        text-decoration-line: underline;
+        ::before{
+            color: #2F9FF8 !important;
+        }
+    }
+    img{
+        padding-left: 14px;
+    }
+    .accordion-body{
+        color: #2F9FF8;
+        padding-top: 20px;
+    }
+    .accordion-button {
+        color:#2F9FF8;            /* Tugma ochiq holatda matn rangi */
+    }
+}
+.email-container{
+    border-radius: 4px;
+    background: #FFE8C5;
+    margin-top: 50px !important;
+    padding: 15px 24px;
+    input{
+        border-radius: 4px;
+        background: #FFF5E5;
+        border: none;
+        padding: 11px 0px 9px 13px;
+        height: 38px;
+        width: 290px;
+        
+        &::placeholder{
+            font-size: 15px;
+            font-weight: 400;
+            opacity: 0.3;
+        }
+    }
+    button{
+        margin: 0 !important;
+        padding: 10px 25px;
+        font-size: 15px;
+        border: #2F9FF8 1px solid;
+        background: #2F9FF8;
+        border-radius: 4px;
+    }
+    button:hover{
+        background-color: white;
+        color: #2F9FF8;
+    }
+    img{
+        width: 170px;
+    }
+}
+hr{
+    height: 0.1px !important;
+    background: #072D4B;
+    margin: 0;
+    opacity: 0.1;
+}

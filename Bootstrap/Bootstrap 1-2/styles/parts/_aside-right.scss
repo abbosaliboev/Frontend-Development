@@ -1,0 +1,128 @@
+.col-lg-3{
+    padding-right: 40px;
+
+    .dropdown{
+        margin-bottom: 100px;
+    }
+}
+
+.dropdown{
+    .btn{
+        color: rgba(7, 45, 75, 1);
+        color: var(--amber-black, #072D4B);
+        font-size: 15px;
+        border: 0;
+        gap: 13px;
+        align-items: center;
+
+        &:hover{
+            background-color: transparent ;
+            color: var(--amber-black, #072D4B);
+        }
+
+        img:last-child{
+            padding-left: 23px;
+        }
+    }
+}
+.card{
+    border: none;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.04);
+}
+.karta-1{
+    .card-title{
+        margin-bottom: 0;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    .mini-container{
+        padding-bottom: 9px;
+        border-bottom: 0.2px solid rgba(7, 45, 75, 0.4);
+    }
+    .card-text p:nth-child(1){
+        margin-bottom: 7px;
+        font-size: 15px;
+    }
+    .card-text p:nth-child(2){
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        margin: 0;
+    }
+    .weather-icon{
+        width: 52px;
+    }
+    .text-b{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+    .text-b2{
+        font-size: 12px;
+        margin-bottom: 0;
+        opacity: 0.3;
+    }
+}
+.karta-2{
+    .card-title{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px; /* 150% */
+        opacity: 0.6;
+        margin: 0;
+    }
+    .btn{
+        border-radius: 4px;
+        border: 0.2px solid var(--sky-blue, #2F9FF8);
+        background: #FFF;
+        color: rgba(47, 159, 248, 1);
+    }
+    .btn:hover{
+        color: white;
+        background-color: #2F9FF8;
+    }
+}
+.karta-3{
+    .card-title{
+        font-size: 15px;
+        font-weight: 400;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px; /* 166.667% */
+        opacity: 0.6;
+    }
+    .title-box{
+        padding-bottom: 9px;
+        border-bottom: 0.2px solid rgba(7, 45, 75, 0.4);
+    }
+}
+.karta-4{
+    .card-title{
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+    .btn{
+        margin-top: 16px;
+        padding: 10px 52px;
+        background-color: #2F9FF8;
+        border: #2F9FF8 1px solid;
+    }
+    .btn:hover{
+        background-color: white !important;
+        color: #2F9FF8;
+    }
+    input{
+        border-radius: 4px;
+        border: 0.1px solid var(--amber-black, #072D4B);
+        background: #F4F9F8;
+        opacity: 0.3;
+    }
+}
