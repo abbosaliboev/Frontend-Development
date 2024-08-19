@@ -1,0 +1,51 @@
+.delicious-container{
+    margin-top: 160px !important;
+    padding: 0px 80px !important;
+    margin-bottom: 160px;
+    .main-text-delicious{
+        margin-bottom: 60px;
+        h2{
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -1.92px;
+            padding-right: 80px;
+            margin: 0;
+            margin-right: 60px;
+        }
+        p{
+            color: rgba(0, 0, 0, 0.60);
+            font-size: 16px;
+            line-height: 28px; /* 175% */
+            padding-right: 80px;
+        }
+    }
+    .delicious-grid{
+        .delicious-card{
+            border: 0;
+            .delicious-img{
+                img:nth-child(1){
+                    border-radius: 20px;
+                }
+                img:nth-child(2){
+                    position: absolute;
+                    right: 6%;
+                    padding-top: 20px;
+                }
+            }
+            .card-body{
+                padding: 20px 0px;
+                .card-text{
+                    text-align: start;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 26px; /* 144.444% */
+                    letter-spacing: -0.72px;
+                    margin-bottom: 24px;
+                }
+                img{
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}

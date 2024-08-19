@@ -1,0 +1,96 @@
+.recipes-container{
+    margin-top: 80px;
+    padding: 0px 80px;
+    margin-bottom: 70px;
+    .main-text{
+        h2{
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: -1.92px;
+            text-align: center;
+            margin-bottom: 24px;
+        }
+        p{
+            color: rgba(0, 0, 0, 0.60);
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px; /* 175% */
+            margin-bottom: 96px;
+        }
+    }
+    .grid{
+        .row{
+            gap: 40px;
+            .recipes-card{
+                border: 0;
+                border-radius: 30px;
+                background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+                .image-box{
+                    img{
+                        border-radius: 24px;
+                    }
+                    img:nth-child(2){
+                        position: absolute;
+                        right: 8%;
+                        top: 5%;
+                    }
+                }
+                .card-body{
+                    padding: 26px 24px 36px 24px;
+                    h4{
+                        text-align: start;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 32px; /* 133.333% */
+                        letter-spacing: -0.96px;
+                        margin-bottom: 24px;
+                    }
+                    p{
+                        margin: 0;
+                        font-size: 14px;
+                        font-weight: 500;
+                        letter-spacing: -0.28px;
+                        img{
+                            padding-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#ads{
+    .card{
+        background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+        border-radius: 0;
+        margin-top: -10px;
+        p{
+            font-family: "Lobster";
+            font-size: 24px;
+            font-weight: 400;
+            color: white;
+            padding: 40px 100px 0px 100px;
+            margin: 0;
+        }
+        .card-body{
+            padding: 0;
+
+            p{
+                color: rgba(255, 255, 255, 0.60);
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.28px;
+                font-family: "Inter";
+                position: absolute;
+                top: 80%;
+                left: 7%;
+            }
+            img{
+                background: 
+                    radial-gradient(circle at center, rgba(58, 121, 91, 0.1), rgba(58, 121, 91, 0)),
+                    repeating-conic-gradient(from 0deg, rgba(58, 121, 91, 0.3) 5deg, rgba(58, 121, 91, 0) 10deg, rgba(58, 121, 91, 0) 15deg);
+            }
+        }
+    }
+}

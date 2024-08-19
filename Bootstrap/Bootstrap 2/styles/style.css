@@ -1,0 +1,670 @@
+.container-fluid {
+  padding: 20px 60px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.container-fluid .navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-size: 24px;
+  color: #000;
+}
+.container-fluid .navbar-brand span {
+  color: #FF7426;
+}
+.container-fluid .collapse {
+  justify-content: end;
+}
+.container-fluid .collapse .navbar-nav {
+  gap: 60px;
+}
+.container-fluid .collapse .navbar-nav a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+  padding: 0;
+}
+
+.carousel .carousel-item .flex-box {
+  width: 88%;
+  height: 640px;
+  flex-shrink: 0;
+  background: #E7FAFE;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  margin-left: 80px;
+  border-radius: 50px;
+}
+.carousel .carousel-item .carusel-box {
+  width: 50%;
+  padding: 50px;
+  border-radius: 50px 0px 0px 50px;
+}
+.carousel .carousel-item .carusel-box button {
+  padding: 11px 20px;
+  border-radius: 30px;
+  background: #FFF;
+  border: 0;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+  align-items: center;
+}
+.carousel .carousel-item .carusel-box button .icon-xat {
+  width: 24px;
+  margin-right: 10px;
+}
+.carousel .carousel-item .carusel-box button:hover {
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
+.carousel .carousel-item .carusel-box h1 {
+  width: 520px;
+  font-size: 60px;
+  height: 154px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+.carousel .carousel-item .carusel-box p {
+  margin: 0;
+  margin-top: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.carousel .carousel-item .carusel-box .alarm div {
+  margin-top: 30px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 11px 16px;
+  gap: 10px;
+}
+.carousel .carousel-item .carusel-box .alarm div p {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.carousel .carousel-item .carusel-img {
+  background-image: url("/images/chicken.png");
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  border-radius: 0px 50px 50px 0px;
+}
+.carousel .carousel-item .carusel-bottom {
+  margin-top: 104px;
+}
+.carousel .carousel-item .avatar-carusel p:first-child {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.32px;
+  width: 100px;
+  color: black;
+}
+.carousel .carousel-item .avatar-carusel p:last-child {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.carousel .carousel-item .carusel-button button {
+  background-color: black;
+  padding: 21px 36px;
+  border-radius: 18px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+}
+.carousel .carousel-item .carusel-button button img {
+  padding-left: 10px;
+}
+.carousel .carousel-item .carusel-button button:hover {
+  background-color: rgba(0, 0, 0, 0.828);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.3);
+}
+.carousel .carousel-item .black-circle {
+  background-color: black;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  right: 44%;
+  top: 14%;
+  border-radius: 100%;
+}
+.carousel .carousel-item textPath {
+  fill: white;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.carousel .carousel-item .white-div {
+  background-color: #FFF;
+  width: 80px;
+  height: 80px;
+  right: 23%;
+  top: 23%;
+  position: absolute;
+  border-radius: 100%;
+}
+.carousel .carousel-control-prev {
+  width: 5%;
+}
+.carousel .carousel-control-next {
+  width: 5%;
+}
+
+.catigories-container {
+  padding: 0px 80px !important;
+  margin-top: 80px !important;
+  margin-bottom: 100px;
+}
+.catigories-container .card-box {
+  gap: 40px;
+  padding-top: 50px;
+}
+.catigories-container .card-box .card {
+  text-align: center;
+  border: 0;
+  border-radius: 30px;
+  padding: 30px;
+  background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+.catigories-container .card-box .card img {
+  width: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.catigories-container .card-box .card img:nth-child(2) {
+  z-index: -1;
+  left: 28%;
+  top: 18%;
+  position: absolute;
+  width: 100px;
+  text-align: center;
+  padding-bottom: 50px;
+  filter: blur(10px);
+  opacity: 60%;
+}
+.catigories-container .card-box .card .card-body {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -0.36px;
+}
+
+.catigories-p p {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.92px;
+  margin: 0;
+}
+.catigories-p button {
+  border-radius: 16px;
+  background: #E7FAFE;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.32px;
+  border: 0;
+  padding: 21px 27px;
+}
+.catigories-p button:hover {
+  background-color: rgba(211, 239, 244, 0.8549019608);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+}
+
+.recipes-container {
+  margin-top: 80px;
+  padding: 0px 80px;
+  margin-bottom: 70px;
+}
+.recipes-container .main-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.92px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.recipes-container .main-text p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-bottom: 96px;
+}
+.recipes-container .grid .row {
+  gap: 40px;
+}
+.recipes-container .grid .row .recipes-card {
+  border: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+.recipes-container .grid .row .recipes-card .image-box img {
+  border-radius: 24px;
+}
+.recipes-container .grid .row .recipes-card .image-box img:nth-child(2) {
+  position: absolute;
+  right: 8%;
+  top: 5%;
+}
+.recipes-container .grid .row .recipes-card .card-body {
+  padding: 26px 24px 36px 24px;
+}
+.recipes-container .grid .row .recipes-card .card-body h4 {
+  text-align: start;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.96px;
+  margin-bottom: 24px;
+}
+.recipes-container .grid .row .recipes-card .card-body p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.recipes-container .grid .row .recipes-card .card-body p img {
+  padding-right: 10px;
+}
+
+#ads .card {
+  background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+  border-radius: 0;
+  margin-top: -10px;
+}
+#ads .card p {
+  font-family: "Lobster";
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  padding: 40px 100px 0px 100px;
+  margin: 0;
+}
+#ads .card .card-body {
+  padding: 0;
+}
+#ads .card .card-body p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+  font-family: "Inter";
+  position: absolute;
+  top: 80%;
+  left: 7%;
+}
+#ads .card .card-body img {
+  background: radial-gradient(circle at center, rgba(58, 121, 91, 0.1), rgba(58, 121, 91, 0)), repeating-conic-gradient(from 0deg, rgba(58, 121, 91, 0.3) 5deg, rgba(58, 121, 91, 0) 10deg, rgba(58, 121, 91, 0) 15deg);
+}
+
+.chef-container {
+  margin-top: 70px !important;
+  padding: 0px 80px !important;
+  margin-bottom: 80px;
+  height: 76.7vh;
+}
+.chef-container .chef-text {
+  width: 42%;
+  padding-top: 170px;
+}
+.chef-container .chef-text h1 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.chef-container .chef-text p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding-right: 40px;
+  margin-bottom: 72px;
+}
+.chef-container .chef-text button {
+  border-radius: 16px;
+  background: #000;
+  color: white;
+  border: 0;
+  padding: 21px 52px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.chef-container .chef-img {
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 50%;
+  margin-top: 50px;
+}
+.chef-container .chef-img .chef-icons img:nth-child(1) {
+  position: absolute;
+  right: 40%;
+}
+.chef-container .chef-img .chef-icons img:nth-child(2) {
+  position: absolute;
+  right: 17%;
+  padding-top: 30px;
+}
+.chef-container .chef-img .chef-icons img:nth-child(3) {
+  position: absolute;
+  right: 48%;
+  padding-top: 380px;
+}
+.chef-container .chef-img .chef-icons img:nth-child(4) {
+  position: absolute;
+  right: 7%;
+  padding-top: 100px;
+  width: 80px;
+}
+.chef-container img {
+  position: absolute;
+  right: 8%;
+}
+
+.insta-container {
+  margin-top: 80px !important;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+.insta-container .main-text-insta {
+  margin-bottom: 80px;
+}
+.insta-container .main-text-insta h2 {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 24px;
+  padding: 0;
+}
+.insta-container .main-text-insta p {
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.insta-container .insta {
+  margin-bottom: 80px;
+}
+.insta-container .insta .insta-card {
+  border: 0;
+}
+.insta-container .insta .insta-card .insta-name {
+  padding: 8px;
+}
+.insta-container .insta .insta-card .insta-name .insta-logo {
+  gap: 8px;
+}
+.insta-container .insta .insta-card .insta-name .insta-logo p:nth-child(1) {
+  color: #262626;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px; /* 138.462% */
+  letter-spacing: -0.077px;
+  margin-bottom: 0;
+}
+.insta-container .insta .insta-card .insta-name .insta-logo p:nth-child(1) img {
+  margin-bottom: 3px;
+}
+.insta-container .insta .insta-card .insta-name .insta-logo p:nth-child(2) {
+  color: #262626;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.054px;
+  margin-bottom: 0;
+  text-align: start;
+}
+.insta-container .insta .insta-card .card-body-insta {
+  padding: 10px;
+}
+.insta-container .insta .insta-card .card-body-insta .insta-icons div {
+  gap: 14px;
+  padding: 0;
+}
+.insta-container .insta .insta-card .card-body-insta .insta-icons div img {
+  width: 24px;
+}
+.insta-container .insta .insta-card .card-body-insta .post-header {
+  text-align: start;
+}
+.insta-container .insta .insta-card .card-body-insta .post-header img {
+  width: 16px;
+}
+.insta-container .insta .insta-card .card-body-insta .post-header span {
+  color: #262626;
+  font-size: 10px;
+  font-family: "Inter";
+}
+.insta-container .insta .insta-card .card-body-insta .post-content {
+  text-align: start;
+  color: #262626;
+  font-size: 10.053px;
+  line-height: 13.92px; /* 138.462% */
+}
+.insta-container .insta .insta-card .card-body-insta .post-content p {
+  margin: 0;
+}
+.insta-container .insta .insta-card .card-body-insta .post-date {
+  text-align: start;
+}
+.insta-container .insta .insta-card .card-body-insta .post-date span {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 8.507px;
+  letter-spacing: 0.039px;
+}
+.insta-container .button-insta button {
+  padding: 21px 32px;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.28px;
+  background-color: #000;
+  border-radius: 16px;
+  border: 0;
+  margin-bottom: 80px;
+}
+.insta-container .button-insta button img {
+  padding-left: 12px;
+}
+.insta-container .button-insta button:hover {
+  background-color: rgba(0, 0, 0, 0.8980392157);
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+}
+
+.delicious-container {
+  margin-top: 160px !important;
+  padding: 0px 80px !important;
+  margin-bottom: 160px;
+}
+.delicious-container .main-text-delicious {
+  margin-bottom: 60px;
+}
+.delicious-container .main-text-delicious h2 {
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -1.92px;
+  padding-right: 80px;
+  margin: 0;
+  margin-right: 60px;
+}
+.delicious-container .main-text-delicious p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+  padding-right: 80px;
+}
+.delicious-container .delicious-grid .delicious-card {
+  border: 0;
+}
+.delicious-container .delicious-grid .delicious-card .delicious-img img:nth-child(1) {
+  border-radius: 20px;
+}
+.delicious-container .delicious-grid .delicious-card .delicious-img img:nth-child(2) {
+  position: absolute;
+  right: 6%;
+  padding-top: 20px;
+}
+.delicious-container .delicious-grid .delicious-card .card-body {
+  padding: 20px 0px;
+}
+.delicious-container .delicious-grid .delicious-card .card-body .card-text {
+  text-align: start;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: -0.72px;
+  margin-bottom: 24px;
+}
+.delicious-container .delicious-grid .delicious-card .card-body img {
+  padding-right: 10px;
+}
+
+.inbox-container {
+  padding: 0px 80px !important;
+  text-align: center;
+  margin-bottom: 160px;
+}
+.inbox-container form {
+  border-radius: 60px;
+  background: #E7F9FD;
+}
+.inbox-container form .inbox-text {
+  padding: 80px 330px 0px 330px;
+  text-align: center;
+}
+.inbox-container form .inbox-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.inbox-container form .inbox-text p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+  margin-bottom: 64px;
+  padding: 0px 30px;
+}
+.inbox-container form .input {
+  border-radius: 24px;
+  width: 37%;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+.inbox-container form .input input {
+  padding: 21px;
+  border: 0;
+  border-radius: 24px;
+}
+.inbox-container form .input input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.inbox-container form .input input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.inbox-container form .input button {
+  border: 0;
+  padding: 21px 46px;
+  border-radius: 16px;
+  background: #000;
+  color: white;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.inbox-container form .input button:hover {
+  background-color: rgba(0, 0, 0, 0.9294117647);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.inbox-container form .images {
+  position: absolute;
+  width: 92.2%;
+}
+.inbox-container form .images .left-back {
+  position: absolute;
+  left: 0%;
+  padding-top: 70px;
+  border-radius: 0px 0px 0px 60px;
+}
+.inbox-container form .images .right-back {
+  position: absolute;
+  right: 0%;
+  padding-top: 205px;
+  border-radius: 0px 0px 60px 0px;
+}
+.inbox-container form .images .right-back-sm {
+  position: absolute;
+  right: 20%;
+  padding-top: 250px;
+}
+
+.last-nav {
+  margin: 0px 80px !important;
+  padding: 0px 0px 48px 0px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.last-nav .logotext span:nth-child(1) {
+  font-family: "Lobster";
+  font-size: 24px;
+}
+.last-nav .logotext span:nth-child(2) {
+  font-family: "Lobster";
+  font-size: 24px;
+  color: #FF7426;
+}
+.last-nav .logotext p {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+  margin: 0;
+}
+.last-nav .links-nav {
+  gap: 60px;
+}
+.last-nav .links-nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.last-nav .links-nav a:hover {
+  color: rgba(0, 0, 0, 0.949);
+  text-decoration: underline;
+}
+
+.last-last {
+  padding: 48px 80px !important;
+}
+.last-last span:nth-child(1) {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  padding-left: 180px;
+}
+.last-last span:nth-child(2) {
+  color: #FF7967;
+  font-size: 18px;
+}
+.last-last img {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
