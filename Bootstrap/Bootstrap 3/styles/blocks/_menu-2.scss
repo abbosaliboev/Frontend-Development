@@ -1,0 +1,130 @@
+.ingridients{
+    .left{
+        padding: 0px 40px 50px 0px;
+        .card-left{
+            gap: 40px;
+            padding-bottom: 30px;
+            img{
+                border-radius: 20px;
+                background-size: auto;
+            }
+            .recipe-names{
+                margin: auto;
+                h4{
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-bottom: 16px;
+                }
+                p{
+                    color: rgba(0, 0, 0, 0.60);
+                    font-size: 16px;
+                    line-height: 28px;
+                    margin-bottom: 32px;
+                }
+            }
+            .author{
+                padding-right: 24px;
+                gap: 16px;
+                align-items: center;
+                border-right: 1px solid rgba(0, 0, 0, 0.10);
+            }
+            .date{
+                padding-left: 24px;
+                color: rgba(0, 0, 0, 0.60);
+                font-size: 14px;
+                font-weight: 500;
+            }
+
+        }
+    }
+    .right{
+        padding: 0;
+        h4{
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 24px;
+        }
+        .card-right{
+            gap: 24px;
+            align-items: center;
+            margin-bottom: 24px;
+            img{
+                width: 180px;
+                border-radius: 30px;
+            }
+            .recipe-name{
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 28px; /* 140% */
+                letter-spacing: -0.8px;
+                margin-bottom: 16px;
+            }
+            .by-p{
+                color: rgba(0, 0, 0, 0.60);
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.28px;
+                margin-bottom: 14px;
+            }
+        }
+        
+    }
+}
+#ads{
+    .card{
+        margin-top: 50px;
+        background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+        border-radius: 0;
+        text-align: center;
+        p{
+            font-family: "Lobster";
+            font-size: 24px;
+            font-weight: 400;
+            color: white;
+            padding: 40px 100px 0px 100px;
+            margin: 0;
+            text-align: center;
+        }
+        .card-body{
+            padding: 0;
+            text-align: center;
+            p{
+                color: rgba(255, 255, 255, 0.60);
+                font-size: 14px;
+                font-weight: 500;
+                letter-spacing: -0.28px;
+                font-family: "Inter";
+                position: absolute;
+                top: 80%;
+                left: 12%;
+                text-align: center;
+            }
+            img{
+                text-align: center;
+                background: 
+                    radial-gradient(circle at center, rgba(58, 121, 91, 0.1), rgba(58, 121, 91, 0)),
+                    repeating-conic-gradient(from 0deg, rgba(58, 121, 91, 0.3) 5deg, rgba(58, 121, 91, 0) 10deg, rgba(58, 121, 91, 0) 15deg);
+            }
+        }
+    }
+}
+
+.button-container{
+    gap: 16px;
+    button{
+        padding: 20px 25px;
+        border-radius: 16px;
+        background-color: white;
+        border: 1px  solid rgba(0, 0, 0, 0.10);
+        font-size: 18px;
+        font-weight: 700;
+    }
+    button:hover{
+        background-color: black;
+        color: white;
+    }
+    button:first-child{
+        background-color: black;
+        color: white;
+    }
+}

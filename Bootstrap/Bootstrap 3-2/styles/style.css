@@ -1,0 +1,314 @@
+.container-fluid {
+  padding: 20px 60px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+.container-fluid .navbar-brand {
+  font-family: "Lobster", sans-serif;
+  font-size: 24px;
+  color: #000;
+}
+.container-fluid .navbar-brand span {
+  color: #FF7426;
+}
+.container-fluid .collapse {
+  justify-content: end;
+}
+.container-fluid .collapse .navbar-nav {
+  gap: 60px;
+}
+.container-fluid .collapse .navbar-nav a {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.32px;
+  padding: 0;
+}
+
+.main-container {
+  padding: 80px 80px !important;
+}
+.main-container h1 {
+  color: #000;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -2.56px;
+  margin-bottom: 32px;
+}
+.main-container .author {
+  margin-bottom: 48px;
+}
+.main-container .author .name {
+  gap: 16px;
+  padding-right: 60px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.main-container .author .name img {
+  width: 40px;
+}
+.main-container .author .name b {
+  font-size: 16px;
+  font-weight: 700;
+}
+.main-container .author .date {
+  padding-left: 24px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.main-container p {
+  width: 78%;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+  margin: auto;
+  padding-bottom: 60px;
+}
+.main-container .chef {
+  border-radius: 30px;
+}
+
+.about .left {
+  padding-left: 110px;
+}
+.about .left .left-question {
+  padding: 0px 24px 70px 24px;
+}
+.about .left .left-question h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.about .left .left-question span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+}
+.about .left .left-img {
+  padding: 0px 24px 60px 24px;
+}
+.about .left .left-img h3 {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+.about .left .left-img img {
+  width: 100%;
+  padding: 32px 0px;
+}
+.about .left .left-img span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+}
+.about .left .ads-text {
+  padding: 48px 40px;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0) 100%);
+  margin-bottom: 60px;
+}
+.about .left .ads-text h4 {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 64px; /* 177.778% */
+  letter-spacing: -1.44px;
+}
+.about .right .share {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 32px;
+}
+.about .right .share span {
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+.about .right .share img {
+  width: 10%;
+  margin: auto;
+}
+
+.delicious-container {
+  padding: 0px 80px !important;
+  margin-bottom: 160px;
+}
+.delicious-container .main-text-delicious {
+  margin-bottom: 60px;
+  justify-content: center;
+}
+.delicious-container .main-text-delicious h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -1px;
+}
+.delicious-container .delicious-grid .delicious-card {
+  border: 0;
+}
+.delicious-container .delicious-grid .delicious-card .delicious-img img:nth-child(1) {
+  border-radius: 20px;
+}
+.delicious-container .delicious-grid .delicious-card .delicious-img img:nth-child(2) {
+  position: absolute;
+  right: 6%;
+  padding-top: 20px;
+}
+.delicious-container .delicious-grid .delicious-card .card-body {
+  padding: 20px 0px;
+}
+.delicious-container .delicious-grid .delicious-card .card-body .card-text {
+  text-align: start;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: -0.72px;
+  margin-bottom: 24px;
+}
+.delicious-container .delicious-grid .delicious-card .card-body img {
+  padding-right: 10px;
+}
+
+.inbox-container {
+  padding: 0px 80px !important;
+  text-align: center;
+  margin-top: 60px !important;
+  margin-bottom: 160px;
+}
+.inbox-container form {
+  border-radius: 60px;
+  background: #E7F9FD;
+}
+.inbox-container form .inbox-text {
+  padding: 80px 330px 0px 330px;
+  text-align: center;
+}
+.inbox-container form .inbox-text h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+.inbox-container form .inbox-text p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+  margin-bottom: 64px;
+  padding: 0px 30px;
+}
+.inbox-container form .input {
+  border-radius: 24px;
+  width: 37%;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 80px;
+}
+.inbox-container form .input input {
+  padding: 21px;
+  border: 0;
+  border-radius: 24px;
+}
+.inbox-container form .input input::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.inbox-container form .input input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.28px;
+}
+.inbox-container form .input button {
+  border: 0;
+  padding: 21px 46px;
+  border-radius: 16px;
+  background: #000;
+  color: white;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.inbox-container form .input button:hover {
+  background-color: rgba(0, 0, 0, 0.9294117647);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+.inbox-container form .images {
+  position: absolute;
+  width: 92.2%;
+}
+.inbox-container form .images .left-back {
+  position: absolute;
+  left: 0%;
+  padding-top: 70px;
+  border-radius: 0px 0px 0px 60px;
+}
+.inbox-container form .images .right-back {
+  position: absolute;
+  right: 0%;
+  padding-top: 205px;
+  border-radius: 0px 0px 60px 0px;
+}
+.inbox-container form .images .right-back-sm {
+  position: absolute;
+  right: 20%;
+  padding-top: 250px;
+}
+
+.last-nav {
+  margin: 0px 80px !important;
+  padding: 0px 0px 48px 0px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.last-nav .logotext span:nth-child(1) {
+  font-family: "Lobster";
+  font-size: 24px;
+}
+.last-nav .logotext span:nth-child(2) {
+  font-family: "Lobster";
+  font-size: 24px;
+  color: #FF7426;
+}
+.last-nav .logotext p {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  line-height: 28px; /* 175% */
+  margin: 0;
+}
+.last-nav .links-nav {
+  gap: 60px;
+}
+.last-nav .links-nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.last-nav .links-nav a:hover {
+  color: rgba(0, 0, 0, 0.949);
+  text-decoration: underline;
+}
+
+.last-last {
+  padding: 48px 80px !important;
+}
+.last-last span:nth-child(1) {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 18px;
+  letter-spacing: -0.36px;
+  padding-left: 180px;
+}
+.last-last span:nth-child(2) {
+  color: #FF7967;
+  font-size: 18px;
+}
+.last-last img {
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */

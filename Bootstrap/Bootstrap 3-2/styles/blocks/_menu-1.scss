@@ -1,0 +1,45 @@
+.main-container{
+    padding: 80px 80px !important;
+    h1{
+        color: #000;
+        text-align: center;
+        font-size: 64px;
+        font-weight: 600;
+        letter-spacing: -2.56px;
+        margin-bottom: 32px;
+    }
+    .author{
+        margin-bottom: 48px;
+        .name{
+            gap: 16px;
+            padding-right: 60px;
+            border-right: 1px solid rgba(0, 0, 0, 0.10);
+            img{
+                width: 40px;
+            }
+            b{
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+        .date{
+            padding-left: 24px;
+            color: rgba(0, 0, 0, 0.60);
+            font-size: 14px;
+            font-weight: 500;
+            letter-spacing: -0.28px;
+        }
+    }
+    p{
+        width: 78%;
+        color: rgba(0, 0, 0, 0.60);
+        text-align: center;
+        font-size: 16px;
+        line-height: 28px; /* 175% */
+        margin: auto;
+        padding-bottom: 60px;
+    }
+    .chef{
+        border-radius: 30px;
+    }
+}   
