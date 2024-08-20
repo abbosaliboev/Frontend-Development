@@ -1,0 +1,68 @@
+.delicious-container{
+
+    padding: 0px 80px ;
+    margin-bottom: 160px;
+
+    @media(max-width: 990px) {
+        padding: 0px 120px !important;
+    }
+
+    .main-text-delicious{
+        margin-bottom: 60px;
+        justify-content: center;
+
+        @media(max-width: 990px) {
+            margin-bottom: 40px;
+        }
+        @media(max-width: 576px) {
+            margin-bottom: 30px;
+        }
+        h2{
+            font-size: 36px;
+            font-weight: 600;
+            margin: 0;
+            letter-spacing: -1px;
+
+            @media(max-width: 990px) {
+                font-size: 28px;
+            }
+            @media(max-width: 576px) {
+                font-size: 22px;
+            }
+        }
+    }
+    .delicious-grid{
+
+        @media(max-width: 576px) {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        .delicious-card{
+            border: 0;
+            .delicious-img{
+                img:nth-child(1){
+                    border-radius: 20px;
+                }
+                img:nth-child(2){
+                    position: absolute;
+                    right: 6%;
+                    padding-top: 20px;
+                }
+            }
+            .card-body{
+                padding: 20px 0px;
+                .card-text{
+                    text-align: start;
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 26px; /* 144.444% */
+                    letter-spacing: -0.72px;
+                    margin-bottom: 24px;
+                }
+                img{
+                    padding-right: 10px;
+                }
+            }
+        }
+    }
+}

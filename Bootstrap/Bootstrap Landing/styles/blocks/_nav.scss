@@ -1,0 +1,52 @@
+.container-fluid{
+    padding: 20px 80px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+    background-color: #fff;
+
+    @media(max-width: 990px) {
+        padding: 16px 60px !important;
+    }
+    @media(max-width: 576px) {
+        padding: 8px 30px !important;
+    }
+    .navbar-brand{
+        font-family: "Lobster", sans-serif;
+        font-size: 24px;
+        color: #000;
+        span{
+            color: #FF7426;
+        }
+    }
+    .collapse{
+        justify-content: end;
+        .navbar-nav{
+            gap: 60px;
+            a{
+                font-size: 16px;
+                font-weight: 500;
+                letter-spacing: -0.32px;
+                padding: 0;
+            }
+            a:hover{
+                color: #20a1bec0;
+            }
+        }
+    }
+    .burger-icon{
+        cursor: pointer;
+
+        span{
+            width: 30px;
+            height: 4px;
+            background-color: #000;
+            margin-top: 4px;
+            border-radius: 4px;
+            display: none;
+
+            @media(max-width: 990px) {
+                display: block;
+            }
+        }
+
+    }
+}

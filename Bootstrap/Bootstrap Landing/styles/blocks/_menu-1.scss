@@ -1,0 +1,138 @@
+.main-container{
+    padding: 80px 80px !important;
+    @media(max-width: 990px) {
+        padding: 60px 60px !important;
+    }
+    @media(max-width: 576px) {
+        padding: 30px 30px !important;
+    }
+    h1{
+        color: #000;
+        font-size: 64px;
+        font-weight: 600;
+        letter-spacing: -2.56px;
+        text-align: center;
+        padding-bottom: 70px;
+        margin: 0;
+
+        @media(max-width: 990px) {
+            font-size: 48px;
+        }
+        @media(max-width: 576px) {
+            font-size: 32px;
+        }
+    }
+    .chef{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        @media(max-width: 990px) {
+            display: flex;
+            flex-direction: column;
+
+        }
+        .img{
+            @media(max-width: 990px) {
+                margin: auto;
+            }
+            @media(max-width: 576px) {
+                margin: auto;
+                width: 300px;
+            }
+            width: 400px;
+            margin: 0;
+            height: 80%;
+            text-align: center;
+            border-radius: 30px;
+            background: linear-gradient(180deg, rgba(231, 249, 253, 0.00) 0%, #E7F9FD 100%);
+
+
+            img{
+                width: 100%;
+                padding: 0px 30px 1px 12px;
+                @media(max-width: 990px) {
+                    padding: 0px 12px 1px 12px;
+                }
+            }
+        }
+        .input-container{
+            width: 68%;
+
+            @media(max-width: 990px) {
+                width: 100%;
+                padding: 0;
+            }
+            padding-left: 40px;
+            .input{
+                display: flex;
+                gap: 40px;
+                padding: 12px 0px;
+                @media(max-width: 990px) {
+                    gap: 30px;
+                    padding-top: 40px;
+                }
+                @media(max-width: 576px) {
+                    gap: 20px;
+                    padding-top: 20px;
+                }
+                .input-box{
+                    width: 100%;
+                    p{
+                        color: rgba(0, 0, 0, 0.60);
+                        font-size: 12px;
+                        font-weight: 500;
+                        line-height: 20px; /* 166.667% */
+                        letter-spacing: 0.96px;
+                        text-transform: uppercase;
+                        padding-bottom: 12px;
+                        margin: 0;
+                    }
+                    input{
+                        padding: 18px 20px;
+                        color: rgba(0, 0, 0, 0.60);
+                        font-size: 14px;
+                        line-height: 24px; /* 171.429% */
+                        letter-spacing: -0.28px;
+        
+                        border-radius: 16px;
+                        border: 1px solid rgba(0, 0, 0, 0.10);
+                        background: #FFF;
+                        
+                        &::placeholder{
+                            opacity: 0.8;
+                        }
+                    }
+                }
+                .last-input{
+                    padding-bottom: 15% !important;
+                }
+                button{
+                    margin-top: 30px;
+                    padding: 20px 60px;
+                    border: none;
+                    background-color: #000;
+                    border-radius: 16px;
+
+                    color: #FFF;
+                    text-align: center;
+                    font-size: 16px;
+                    font-weight: 600;
+                    line-height: 24px; /* 150% */
+                    letter-spacing: -0.32px;
+
+                    @media(max-width: 990px) {
+                        margin-top: 0px;
+                        padding: 16px 40px;
+                    }
+                    @media(max-width: 576px) {
+                        padding: 12px 20px;
+                    }
+                }
+                button:hover{
+                    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3); 
+                    background-color: #000000d5;
+                }
+            }
+        }
+    }
+}
