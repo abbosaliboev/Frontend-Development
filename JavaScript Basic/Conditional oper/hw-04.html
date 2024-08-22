@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS</h1>
+    <p>3 ta son berilgan. Yig’indisi eng katta bo’ladigan 2 tasini toping</p>
+
+    <script>
+        let num1 = 4;
+        let num2 = 2;
+        let num3 = 3;
+
+        let a,b,c;
+        
+        if ( num1 <= num2 && num1 <= num3){
+            a = num1;
+            if( num2 <= num3){
+                b = num2;
+                c = num3;
+            }
+            else{
+                b = num3;
+                c = num2;
+            }
+        }
+        if ( num2 <= num1 && num2 <= num3){
+            a = num2;
+            if( num1 <= num3){
+                b = num1;
+                c = num3;
+            }
+            else{
+                b = num3;
+                c = num1;
+            }
+        }
+        if ( num3 <= num1 && num3 <= num2){
+            a = num3;
+            if( num1 <= num2){
+                b = num1;
+                c = num2;
+            }
+            else{
+                b = num2;
+                c = num1;
+            }
+        }
+        
+        console.log(a);
+        console.log(b);
+        console.log(c);
+        
+        console.log("max = " + b + " + " + c);
+    </script>
+</body>
+</html>

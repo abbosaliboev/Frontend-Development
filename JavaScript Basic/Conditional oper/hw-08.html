@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JS</h1>
+    <p>Sonlar x o’qida 3 ta A, B, va C nuqtalar berilgan. A nuqtaga eng yaqin nuqta va ular orasidagi masofani aniqlang.</p>
+
+    <script>
+        let a = 10;
+        let b = 12;
+        let c = 13;
+    
+        let distanceToB = Math.abs(a - b);
+        let distanceToC = Math.abs(a - c);
+    
+        if (distanceToB < distanceToC) {
+            console.log("A nuqtaga eng yaqin nuqta: B");
+            console.log("Masofa: " + distanceToB);
+        } else {
+            console.log("A nuqtaga eng yaqin nuqta: C");
+            console.log("Masofa: " + distanceToC);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = 26545;  // 26545
+
+        let temp_hours = n / 3600; // 7.3
+        let hours = Math.floor(temp_hours); // 3
+
+        let temp_minutes = temp_hours - hours; // 0.37
+        let temp_minutes2 = temp_minutes * 60; // 22.41
+        let minutes = Math.floor(temp_minutes2); // 22
+
+        let temp_seconds = temp_minutes2 - minutes; // 0.41
+        let seconds = temp_seconds * 60; // 24.99
+        seconds = Math.ceil(seconds); // 25
+
+        // console.log("temp hours = " + temp_hours);
+        // console.log("hours = " + hours);
+
+        // console.log("temp minutes = " + temp_minutes);
+        // console.log("temp minutes2 = " + temp_minutes2);
+        // console.log("minutes = " + minutes);
+        
+        // console.log("temp seconds = " + temp_seconds);
+        // console.log("seconds = " + seconds);
+        console.log("n = " + n);
+        console.log(hours + "-soat " + minutes + "-daqiqa " + seconds + "-soniya ");
+
+
+
+    </script>
+</body>
+</html>

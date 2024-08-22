@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = 2658;
+
+        let num1 = n % 10; // 8
+        let temp = n / 10; // 265.8
+        let num10 = Math.floor(temp) % 10; // 5
+        let temp2 = n / 100; // 26.58
+        let num100 = Math.floor(temp2) % 10; // 6
+        let temp3 = n /1000; // 2.
+        let num1000 = Math.floor(temp3) % 10; // 2
+
+
+        let sum = num1 + num10 + num100 + num1000;
+        console.log("n = 2658");
+        console.log("Sum = " + sum);
+
+        // console.log("num1 = " + num1);
+        // console.log("num10 = " + num10);
+        // console.log("num100 = " + num100);
+        // console.log("num1000 = " + num1000);
+        // console.log("temp = " + temp);
+        // console.log("temp2 = " + temp2);
+        // console.log("temp3 = " + temp3);
+
+    </script>
+</body>
+</html>

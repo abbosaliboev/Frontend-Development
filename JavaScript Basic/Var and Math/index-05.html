@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let n = 265;
+
+        let num1 = n % 10; // 5
+        let temp = n / 10; // 26.5
+        let num10 = Math.floor(temp) % 10; // 6
+        let temp2 = n / 100; // 2.65
+        let num100 = Math.floor(temp2); // 2
+
+        let total = (num1 * 100) + (num10 * 10) + num100;
+
+        console.log("n = 265");
+        console.log("new = " + total);
+
+    </script>
+</body>
+</html>
