@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Darsda bajarilgan kalkulyatorga darajaga oshirish (^) amalini qo’shing.</p>
+    
+    <script>
+
+        let a = 3;
+        let b = 4;
+        let amal = "+";
+        let javob = 0;
+
+        a = parseFloat(prompt("a = " ));
+        b = parseFloat(prompt("b = " ));
+        amal = prompt("");
+
+        switch(amal){
+            case "+": 
+                javob = a + b;
+                break
+            case "*": 
+                javob = a * b;
+                break
+            case "/": 
+                javob = a / b;
+                break
+            case "-": 
+                javob = a - b;
+                break
+            case "^":
+                javob = Math.pow(a,b);
+                break
+            default: ("notog'ri amal kiritildi (+,-,*,/,^)");
+                break
+        }
+
+        alert(a + amal + b + "=" + javob);
+    </script>
+</body>
+</html>

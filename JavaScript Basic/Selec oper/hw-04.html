@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>2 xonali sonni so’zlar bilan chiqaring. Masalan, 15 - “on besh”</p>
+    
+    <script>
+
+        let number = 15;
+        let num1;
+        let num10;
+        let string = "";
+
+
+        num1 = number % 10; // 2
+        num10 = Math.floor(number / 10); // 4
+
+        switch(num10){
+            case 1:
+                string += "o'n ";
+                break
+            case 2:
+                string += "yigirma ";
+                break
+            case 3:
+                string += "o'ttiz ";
+                break
+            case 4:
+                string += "qirq ";
+                break
+            case 5:
+                string += "ellik ";
+                break
+            case 6:
+                string += "oltmish ";
+                break
+            case 7:
+                string += "yetmish ";
+                break
+            case 8:
+                string += "sakson ";
+                break
+            case 9:
+                string += "to'qson ";
+                break
+        }
+
+        switch(num1){
+            case 1:
+                string += "bir ";
+                break
+            case 2:
+                string += "ikki";
+                break
+            case 3:
+                string += "uch ";
+                break
+            case 4:
+                string += "to'rt ";
+                break
+            case 5:
+                string += "besh ";
+                break
+            case 6:
+                string += "olti ";
+                break
+            case 7:
+                string += "yetti ";
+                break
+            case 8:
+                string += "sakkiz ";
+                break
+            case 9:
+                string += "to'qqiz ";
+                break
+        }
+
+
+        console.log(number);
+        console.log(string);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>  L og’irlik o’lchov birligi berilgan (“kg”, “gram”, “tonna”, “sentner”) va M kg berilgan. Shu kglarni berilgan og’irlik o’lchov birligida ifodalang.</p>
+    
+    <script>
+
+        let M = 40;
+        let L = "gram"
+
+        let weight;
+
+        switch(L){
+            case "kg":
+                weight = M;
+                break;
+            case "gram":
+                weight = M * 1000;
+                break;
+            case "sentner":
+                weight = M / 100;
+                break;
+            case "tonna":
+                weight = M / 1000;
+                break;
+            default: 
+                console.log("Noto'g'ri og'irlik birligi berilgan");
+        }
+
+        console.log(weight + L);
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> A va N butun sonlari berilgan. A ning 1 dan N gacha bo’lgan darajalarini chiqaring.</p>
+
+    <script>
+        let a = parseFloat(prompt("a = "));
+        let n = parseFloat(prompt("n = "));
+        let total = a;
+
+        for ( let i = 1; i < n; i++){
+            total = total * a;
+            console.log("A^" + (i+1) + " = " + total);
+        }
+        console.log("input: " + a + "-" + n);
+    </script>
+    
+</body>
+</html>

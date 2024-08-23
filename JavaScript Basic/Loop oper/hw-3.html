@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>A va N butun sonlari berilgan. A ning n-chi darajasini hisoblang. A^N = A * A * … * A;</p>
+
+    <script>
+        let a = parseFloat(prompt("a = "));
+        let n = parseFloat(prompt("n = "));
+        let total = a;
+
+        for ( let i = 1; i < n; i++){
+            total = total * a;
+        }
+        console.log("total = " + total);
+    </script>
+    
+</body>
+</html>
