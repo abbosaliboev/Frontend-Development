@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>N ta butun sonlar orasidan eng kichigini toping.</p>
+    <script>
+        let n = parseInt(prompt("nechta son kiritmoqchisiz ?: "));
+        let i = 0;
+        let min;
+
+        while(i <= n){
+            let number = parseInt(prompt(i + "-chi son: "))
+
+            
+            if (i === 0){
+                min = number;
+            }
+            else if (min > number){
+                min = number;
+            }
+            i++;
+        }
+        console.log(min);
+    </script>
+    
+</body>
+</html>

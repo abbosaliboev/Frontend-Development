@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>N ta butun sonlar orasidan 2 ta eng kattasini toping.</p>
+    <script>
+        let n = parseInt(prompt("nechta son kiritmoqchisiz ?: "));
+        let i = 0;
+        let min;
+        let max;
+
+        while(i < n){ 
+            let number = parseInt(prompt((i + 1) + "-chi son: "));
+            if (i === 0){
+                max = number;
+                min = number;
+            }
+            else if (i != 0 && max < number){
+                min = max;
+                max = number;
+            }
+            i++;
+        }
+        console.log("min = " + min);
+        console.log("max = " + max);
+    </script>
+    
+</body>
+</html>
