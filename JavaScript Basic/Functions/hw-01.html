@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>A dan B gacha summani hisoblab qaytaradigan sum(a) funksiyasini tuzing.</p>
+
+    <script>
+        function sum(a,b){
+            let total = 0;
+
+            if(a <= b){
+                for(let i = a; i <= b; i++){
+                    total += i;
+                }
+            }
+            else{
+                for(let i = a; i >= b; i--){
+                    total += i;
+                }
+            }
+            return total;
+        }
+
+        let a = parseInt(prompt("a = "));
+        let b = parseInt(prompt("b = "));
+
+        let summa = sum(a,b);
+        console.log("a = " + a);
+        console.log("b = " + b);
+        console.log("sum = " + summa);
+    </script>
+</body>
+</html>

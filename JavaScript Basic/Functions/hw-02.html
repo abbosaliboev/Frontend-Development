@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> A soni tub yoki tub emasligini tekshirib beruvchi tubmi(A) funksiyasini tuzing.</p>
+
+    <script>
+        function tubmi(a){
+            if (a < 2) {
+            console.log("Tub son emas.");
+            return;
+            }
+
+            let prime = true;
+            for(let i = 2; i < a; i++){
+                if(a % i === 0){
+                    prime = false;
+                    break; 
+                }
+                else if(prime = true){
+                    console.log("tub son");
+                }
+            }
+            if (prime) {
+            console.log(a + " - tub son.");
+            } 
+            else {
+            console.log(a + " - tub son emas.");
+            }
+
+        }
+
+        let a = parseInt(prompt("a = "));
+        tubmi(a);
+
+
+    </script>
+</body>
+</html>

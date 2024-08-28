@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>5 ta sondan kattasini topib beruvchi dastur tuzing. Shu funksiyani tuzishda 
+        2 ta sondan kattasini topib beradigan funksiya tuzib foydalaning.</p>
+
+        <script>
+            function getMax5(a,b,c,d,e){
+                let max = getMax2(getMax2(getMax2(getMax2(a,b), c), d), e);
+                return max;
+            }
+            function getMax2(a,b){
+                if(a > b) return a;
+                else return b;
+            }
+
+            let a = parseFloat(prompt("1 = "));
+            let b = parseFloat(prompt("2 = "));
+            let c = parseFloat(prompt("3 = "));
+            let d = parseFloat(prompt("4 = "));
+            let e = parseFloat(prompt("5 = "));
+
+            let Max = getMax5(a,b,c,d,e);
+            console.log("max = " + Max);
+        </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>A ni N-chi darajaga oshirib beradigan daraja(a, n) funksiyasini tuzing.</p>
+    <script>
+        function daraja(a,n){
+            if (n === 0) {
+            return 1;
+            }
+
+            let total = 1;
+            for(let i = 1; i <= n; i++){
+                total *=  a;
+            }
+            return total;
+        }
+
+        let a = parseInt(prompt("a = "));
+        let n = parseInt(prompt("n = "));
+        let pow = daraja(a,n);
+        console.log(a + "^" + n + "=" + pow);
+
+    </script>
+</body>
+</html>
