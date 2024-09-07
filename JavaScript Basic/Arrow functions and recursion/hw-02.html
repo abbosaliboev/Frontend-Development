@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>N soni yuborilganda, 1 dan N^N gacha sonlar ketma - ketligi yordamida kubik chizadigan funksiya tuzing.
+        Masalan, 3 yuborilganda, natija:
+        1 2 3
+        4 5 6
+        7 8 9
+    </p>
+
+    <script>
+        const kubik = (n) => {
+            let count = 1;
+            let result = "";
+            for(let i = 0; i < n; i++){
+                for(let k = 0; k < n; k++){
+                    result += count + " ";
+                    count++;
+                }
+                result += "\n";
+            }
+            console.log(result);
+        };
+
+        let n = +prompt("son kiriting: ");
+        kubik(n);
+    </script>
+</body>
+</html>

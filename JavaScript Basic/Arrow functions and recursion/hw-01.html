@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Masalalarni ishlashda arrow functionlardan foydalaning.
+        Fasllarga mos oylarni matn ko’rinishida qaytaradigan getMonth(fasl) funksiyasini tuzing.</p>
+    <script>
+        const getMonth = (fasl) => {
+
+            // ----------harflik input-------------
+            // switch (fasl.toLowerCase()) {
+            //     case 'bahor':
+            //         return "Mart, Aprel, May";
+            //     case 'yoz':
+            //         return "Iyun, Iyul, Avgust";
+            //     case 'kuz':
+            //         return "Sentyabr, Oktabr, Noyabr";
+            //     case 'qish':
+            //         return "Dekabr, Yanvar, Fevral";
+            //     default:
+            //         return "Noto'g'ri fasl kiritildi";
+            // }
+
+            switch(fasl){
+                case 1: 
+                    console.log("Mart");
+                    console.log("Aprel");
+                    console.log("May");
+                    break;
+                case 2: 
+                    console.log("Iyun");
+                    console.log("Iyul");
+                    console.log("Avgust");
+                    break;
+                case 3: 
+                    console.log("Sentabr");
+                    console.log("Oktabr");
+                    console.log("Noyabr");
+                case 4: 
+                    console.log("Dekabr");
+                    console.log("Yanvar");
+                    console.log("Fevral");
+                    break;
+                default:
+                    console.log("Bunday fasl mavjud emas.");
+            }
+        };
+
+        let fasl = +prompt("1dan 4gacha bo'lgan faslni kiriting (1-4): ")
+        getMonth(fasl);
+
+        // ----------harflik input-------------
+        // let fasl = prompt("Faslni kiriting (bahor, yoz, kuz, qish):");
+        // let oylar = getMonth(fasl);
+        // console.log(oylar);
+
+    </script>
+</body>
+</html>
