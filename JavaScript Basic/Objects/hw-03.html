@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Endi O’qituvchilar obyektini yasang. Bu obyektda bir nechta o’qituvchilar bo’lishi kerak bo’ladi.
+        Key o’rnida o’qituvchining ismi va familyasidan tuzilgan matndan, valuega esa o’qituvchi obyektidan foydalaning. 
+        Masalan, { palonchi_palonchiyev: {… bu joyda esa o’qituvchi obyekti joylashsin} }
+    </p>
+
+    <script>
+        let teachers = {
+            abbos_aliboev: {
+                name: "Abbos",
+                family: "Aliboev",
+                lesson: "JavaScript",
+                phoneNumber: "1234567",
+                adress: "Tashkent",
+                salary: "10 mln",
+                showInfo(){
+                    let info = `Name: ${this.name}\n` +
+                                `Family: ${this.family}\n` +
+                                `Lesson: ${this.lesson}\n` +
+                                `Phone Number: ${this.phoneNumber}\n` +
+                                `Address: ${this.adress}\n` +
+                                `Salary: ${this.salary}`;
+                    console.log(info);
+                }
+            },
+            mamatov_ulugbek: {
+                name: "Ulugbek",
+                family: "Mamatov",
+                lesson: "Bussines",
+                phoneNumber: "1111111",
+                adress: "Tashkent",
+                salary: "5 mln",
+                showInfo(){
+                    let info = `Name: ${this.name}\n` +
+                                `Family: ${this.family}\n` +
+                                `Lesson: ${this.lesson}\n` +
+                                `Phone Number: ${this.phoneNumber}\n` +
+                                `Address: ${this.adress}\n` +
+                                `Salary: ${this.salary}`;
+                    console.log(info);
+                }
+            },
+            aliyeva_sitora: {
+                name: "Sitora",
+                family: "Aliyeva",
+                lesson: "PHP",
+                phoneNumber: "0000000",
+                adress: "Jizzax",
+                salary: "20 mln",
+                showInfo(){
+                    let info = "Name: " + this.name + "\n" +
+                    "Family: " + this.family + "\n" +
+                    "Lesson: " + this.lesson + "\n" +
+                    "Phone Number: " + this.phoneNumber + "\n" +
+                    "Adress: " + this.adress + "\n" +
+                    "Salary: " + this.salary + "\n";
+                    console.log(info);
+                }
+            },
+            
+        };
+
+        for (let key in teachers){
+            console.log("Information for " + key + ": ");
+            teachers[key].showInfo();
+            console.log("---------");
+        }
+
+        console.log(teachers);
+    </script>
+</body>
+</html>

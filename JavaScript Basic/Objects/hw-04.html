@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>O’qituvchilar obyektiga o’xshatib sinflar, xonalar, fanlar obyektlarini tuzing.
+    </p>
+
+    <script>
+        let classes = {
+            1: "1 sinf",
+            2: "2 sinf",
+            3: "3 sinf",
+            4: "4 sinf",
+            5: "5 sinf",
+            6: "6 sinf",
+            7: "7 sinf",
+            8: "8 sinf",
+            9: "9 sinf",
+            showInfo(){
+                for(let key in this){
+                    if (!isNaN(key)) {
+                    console.log(this[key]);
+                    }
+                }
+            }
+        };
+        let rooms = {
+            101: "101 xona",
+            102: "102 xona",
+            103: "103 xona",
+            104: "104 xona",
+            105: "105 xona",
+            106: "106 xona",
+            showInfo(){
+                for(let key in this){
+                    if (!isNaN(key)) {
+                    console.log(this[key]);
+                    }
+                }
+            }
+        };
+        let sciences = {
+            chemistry: "Chemistry",
+            math: "Math",
+            biology: "Biology",
+            computer: "Computer",
+            programming: "Programming",
+            showInfo(){
+                for(let key in this){
+                    if (typeof this[key] !== 'function') {
+                    console.log(this[key]);
+                }
+                }
+            }
+        };
+
+        classes.showInfo();
+        rooms.showInfo();
+        sciences.showInfo();
+    </script>
+</body>
+</html>

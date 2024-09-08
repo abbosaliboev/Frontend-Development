@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p> O’qituvchi obyektiga showInfo() funksiyasini qo’shing. Bu funksiya o’qituvchi haqida kerakli ma’lumotlarni consoleda log xabar qilib qoldirsin. 
+    </p>
+    <script>
+
+        let teacher = {
+            name: "Abbos",
+            family: "Aliboev",
+            lesson: "JavaScript",
+            phoneNumber: "1234567",
+            adress: "Tashkent",
+            salary: "10 mln",
+            showInfo (teacher){
+                console.log(this.name, this.family, this.lesson, this.phoneNumber, this.adress, this.salary);
+
+                console.log(Object.values(this));
+            },
+            
+        };
+
+        teacher.showInfo();
+    </script>
+</body>
+</html>
