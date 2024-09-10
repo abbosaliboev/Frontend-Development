@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Ixtiyoriy  arrayning  markazida  bo'lgan  3ta elementni qaytaruvchi funksiya yarating
+        ([1, 2, 3, 4, 5]) =>  2,3,4</p>
+    <script>
+        function center3(arr) {
+            let centerIndex = Math.floor(arr.length / 2); 
+            console.log(centerIndex);
+            
+            if (arr.length < 3) {
+                console.log("Massivda 3 yoki undan ko'p element bo'lishi kerak.");
+                return [];
+            } else if (arr.length % 2 === 0) {
+                console.log("Massiv uzunligi juft bo'lsa, aniq markaziy 3 ta element mavjud emas.");
+                return arr.slice(centerIndex - 1, centerIndex + 2); 
+            } else {
+                return arr.slice(centerIndex - 1, centerIndex + 2); 
+            }
+        }
+
+        let arr = prompt("Massiv elementlarini vergul bilan kiriting: ").split(',').map(item => item.trim());
+
+        let result = center3(arr);
+        console.log("Markazdagi 3 ta element:", result);
+    </script>
+</body>
+</html>

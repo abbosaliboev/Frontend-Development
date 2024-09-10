@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Matn ko’rinishidagi Maktab obyektini yana qayta JavaScript obyektga o’giring.</p>
+
+    <script>
+                let school = {
+            classes:{
+                1: "1 sinf",
+                2: "2 sinf",
+                3: "3 sinf",
+                4: "4 sinf",
+                5: "5 sinf",
+                6: "6 sinf",
+                7: "7 sinf",
+                8: "8 sinf",
+                9: "9 sinf",
+                showInfo(){
+                    for(let key in this){
+                        if (!isNaN(key)) {
+                        console.log(this[key]);
+                        }
+                    }
+                }
+            },
+            rooms:{
+                101: "101 xona",
+                102: "102 xona",
+                103: "103 xona",
+                104: "104 xona",
+                105: "105 xona",
+                106: "106 xona",
+                showInfo(){
+                    for(let key in this){
+                        if (!isNaN(key)) {
+                        console.log(this[key]);
+                        }
+                    }
+                }
+            },
+            sciences:{
+                chemistry: "Chemistry",
+                math: "Math",
+                biology: "Biology",
+                computer: "Computer",
+                programming: "Programming",
+                showInfo(){
+                    for(let key in this){
+                        if (typeof this[key] !== 'function') {
+                        console.log(this[key]);
+                        }
+                    }
+                }
+            },
+            teachers:{
+                abbos_aliboev: {
+                    name: "Abbos",
+                    family: "Aliboev",
+                    lesson: "JavaScript",
+                    phoneNumber: "1234567",
+                    adress: "Tashkent",
+                    salary: "10 mln",
+                    showInfo(){
+                        let info = `Name: ${this.name}\n` +
+                                    `Family: ${this.family}\n` +
+                                    `Lesson: ${this.lesson}\n` +
+                                    `Phone Number: ${this.phoneNumber}\n` +
+                                    `Address: ${this.adress}\n` +
+                                    `Salary: ${this.salary}`;
+                        console.log(info);
+                    }
+                },
+                mamatov_ulugbek: {
+                    name: "Ulugbek",
+                    family: "Mamatov",
+                    lesson: "Bussines",
+                    phoneNumber: "1111111",
+                    adress: "Tashkent",
+                    salary: "5 mln",
+                    showInfo(){
+                        let info = `Name: ${this.name}\n` +
+                                    `Family: ${this.family}\n` +
+                                    `Lesson: ${this.lesson}\n` +
+                                    `Phone Number: ${this.phoneNumber}\n` +
+                                    `Address: ${this.adress}\n` +
+                                    `Salary: ${this.salary}`;
+                        console.log(info);
+                    }
+                },
+                aliyeva_sitora: {
+                    name: "Sitora",
+                    family: "Aliyeva",
+                    lesson: "PHP",
+                    phoneNumber: "0000000",
+                    adress: "Jizzax",
+                    salary: "20 mln",
+                    showInfo(){
+                        let info = "Name: " + this.name + "\n" +
+                        "Family: " + this.family + "\n" +
+                        "Lesson: " + this.lesson + "\n" +
+                        "Phone Number: " + this.phoneNumber + "\n" +
+                        "Adress: " + this.adress + "\n" +
+                        "Salary: " + this.salary + "\n";
+                        console.log(info);
+                    }
+                }
+            }
+        }
+        // school.classes.showInfo();
+        // school.rooms.showInfo();
+        // school.sciences.showInfo();
+        // for (let key in school.teachers){
+        //     console.log("-------- Information for " + key + ": --------");
+        //     school.teachers[key].showInfo();
+        // }
+
+        let schoolString = JSON.stringify(school);
+        console.log(schoolString);
+
+        console.log("------  JSON -> JS ------");
+        let schoolJS = JSON.parse(schoolString);
+        console.log(schoolJS);
+    </script>
+</body>
+</html>
