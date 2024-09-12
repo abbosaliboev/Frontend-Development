@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Ixtiyoriy ikkita ikkita arrayni  parament sifatida qabul qiladigan  va  ularni  yig'indisi  katta bo'lgan  
+        arrayni qaytaradigan funksiya yarating</p>
+
+    <script>
+        const arr1 = [10, 20, 30, 40];
+        const arr2 = [20, 40, 60, 80];
+
+        function largerSumArray(arr1, arr2) {
+            const sum1 = arr1.reduce((acc, val) => acc + val, 0);
+            const sum2 = arr2.reduce((acc, val) => acc + val, 0);
+            return sum1 >= sum2 ? arr1 : arr2;
+        }
+
+        const total = largerSumArray(arr1, arr2);
+        console.log(total);
+    </script>
+</body>
+</html>
