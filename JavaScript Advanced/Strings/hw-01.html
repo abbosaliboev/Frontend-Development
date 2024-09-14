@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>A va b,  2 ta string berilgan bo‘lsa, qisqa+uzun+qisqa ko‘rinishdagi satrni qaytaring, qisqaroq string tashqi tomondan, uzunroq string esa ichki tomonda.
+        Satrlar bir xil uzunlikda bo'lmaydi, lekin ular bo'sh bo'lishi mumkin (uzunligi 0).
+        
+        Namunalar
+        comboString('Hello', 'hi') → hiHellohi
+        comboString('aaa', 'b') → baaab</p>
+
+    <script>
+
+        function comboString(a,b){
+            if(a.length > b.length){
+                return b + a + b;
+            }
+            else{
+                return a + b + a;
+            }
+        }
+
+        console.log(comboString("Hello", "hi"));
+        console.log(comboString("aaa", "b"));
+        console.log(comboString("", "hi"));
+    </script>
+</body>
+</html>

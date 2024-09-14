@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Berilgan satrda 'cat' va 'dog' bir xil tenglikda qatnashsa , true qiymatini qaytaring aks holda false 
+
+        namuna:
+        catDog('catcat') → false
+        catDog('1cat1cadodog') → true</p>
+    <script>
+        function catDog(str){
+            let countCat = (str.match(/cat/g) || []).length;
+            let countDog = (str.match(/dog/g) || []).length;
+
+            return countCat === countDog;
+            
+        }
+        console.log(catDog("catcat"));
+        console.log(catDog("1cat1cadodog"));
+        console.log(catDog("1cat1cadogcats"));
+    </script>
+</body>
+</html>

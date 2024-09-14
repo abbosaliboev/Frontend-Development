@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Berilgan satrning istalgan joyida "hi" so'zi nechta bo'lsa shu sonni qaytaring
+
+        namuna:
+        countHi('ABChi hi') → 2
+        countHi('hihi') → 2</p>
+
+    <script>
+        function countHi(str){
+            let count = 0;
+            for( let i = 0; i < str.length - 1; i++){
+                if(str[i] === 'h' && str[i+1] === 'i'){
+                    count++
+                }
+            } 
+            return count;
+        }
+
+        console.log(countHi("ABChi hi")); 
+        console.log(countHi("hihi"));    
+
+    </script>
+</body>
+</html>

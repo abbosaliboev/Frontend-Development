@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>String berilgan, stringni birinchi 2 ta harfini 3ta nusxasini qaytaring
+
+        namuna:
+        extraFront('Hello') → HeHeHe
+        extraFront('ab') → ababab</p>
+
+    <script>
+        function extraFront(str){
+            str = str.substr(0, 2);
+            return str.repeat(3); 
+        }
+
+        console.log(extraFront("Hello"));
+        console.log(extraFront("ab"));
+    </script>
+</body>
+</html>

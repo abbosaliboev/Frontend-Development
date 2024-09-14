@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>String berilgan bo'lsa, agar birinchi yoki oxirgi belgilar "x" bo'lsa, ushbu "x" belgilarsiz qatorni qaytaring va aks holda satrni o'zgarishsiz qaytaring.
+
+        namunalar
+        
+        withoutX('xHix') → Hi
+        withoutX('xHi') → Hi
+        withoutX('Hxix') → Hxi</p>
+
+    <script>
+        function withoutX(str){
+            if(str[0] === 'x' && str.slice(-1) === 'x'){
+                str = str.substr(1,str.length)
+                return str.substr(0,str.length-1);
+            }
+            if(str[0] === 'x'){
+                return str.substr(1,str.length);
+
+            }
+            else if (str.slice(-1) === 'x'){
+                return str.substr(0,str.length-1);
+            }
+            else{
+                return str;
+            }
+        }
+
+        console.log(withoutX("xHix"));
+        console.log(withoutX("xHi"));
+        console.log(withoutX("Hxix"));
+    </script>
+</body>
+</html>
