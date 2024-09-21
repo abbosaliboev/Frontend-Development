@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <!-- Karuselga nechinchi rasm ko’rsatib turilganligini ifodalovchi elementlar qo’shilsin hamda JavaScript orqali boshqarilsin. -->
+        <!-- Karuselni tagidan raqamlangan knopkalar qo’yilsin. Qaysi raqamli knopkaga bosilsa, o’sha raqamga mos rasm ochilsin. -->
+        <!-- Uni ham tagidan bitta input qo’yilsin. Type=“number” bo’lsin. Yonida “go” degan knopka bo’lsin. Inputga raqam kiritilib, “go” knopkasi bosilganda, o’sha rasmga o’tilsin. -->
+    </head>
+
+    <body>
+    <div class="container py-5">
+        <div class="p-3 rounded bg-dark text-white shadow">
+            <h1 class="text-center display-4">Karusel</h1>
+        </div>
+        <div class="col-md-9 col-lg-7 col-xl-5 mt-3 m-auto">
+            <div class="overflow-hidden rounded">
+                <img src="./imgs/img1.jpeg" alt="no image" class="w-100" id="slide">
+            </div>
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+            <div class="btn btn-dark me-3" id="btnLeft">left</div>
+            <div class="btn btn-dark" id="btnRight">right</div>
+        </div>
+        <div class="d-flex justify-content-center mt-2">
+            <div class="btn btn-dark me-3 number">1</div>
+            <div class="btn btn-dark me-3 number">2</div>
+            <div class="btn btn-dark me-3 number">3</div>
+            <div class="btn btn-dark me-3 number">4</div>
+            <div class="btn btn-dark me-3 number">5</div>
+        </div>
+        <p class="text-center mt-3" id="count">1</p>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+</html>
