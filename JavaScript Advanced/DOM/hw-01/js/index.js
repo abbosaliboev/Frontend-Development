@@ -11,7 +11,7 @@ const changeSlide = (direction) =>{
     if(active >= imgs.length) active = 0;
 
     slide.src = imgs[active];
-    count.innerHTML = active;
+    count.innerHTML = active + 1;
     console.log(active);
 }
 
