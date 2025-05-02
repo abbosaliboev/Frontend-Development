@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+}
+#sidebar{
+    width: 260px;
+    background: linear-gradient(to right top, #143157, #0f5d6b);
+    color: white;
+    transition: 0.3s;
+}
+.hide{
+    display: none;
+}
+#rightside{
+    flex: 1;
+}
+header{
+    background-color: white;
+    height: 54px;
+}
+.content{
+    background-color: #d2e4e4;
+    height: calc(100vh - 54px);
+}
+#sidebar .list-group {
+    border-radius: 0px !important;
+}
+#sidebar .list-group-item {
+    border: 0;
+    border-radius: 10px !important;
+    margin-bottom: 10px;
+    background-color: #0c8884;
+    color: white;
+}
+#sidebar .list-group-item.active {
+    background-color: #00b1ab;
+}
+h2{
+    font-weight: bold !important;
+}
