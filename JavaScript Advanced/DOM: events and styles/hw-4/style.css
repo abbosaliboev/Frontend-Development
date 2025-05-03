@@ -36,6 +36,7 @@ header{
 }
 h2{
     font-weight: bold !important;
+    margin-bottom: 28px !important;
 }
 .darkMode{
     background-color: #5a9492;

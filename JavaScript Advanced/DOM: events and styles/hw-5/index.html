@@ -11,10 +11,10 @@
 <body onload="loaded()" class="d-flex" onkeyup="keyUp(event)">
     <div id="sidebar" class="px-4 py-5 hide">
         <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+            <a href="#" id="btnTeacher" class="list-group-item list-group-item-action active" aria-current="true"  onclick="showTeacher()">
                 O'qituvchilar
             </a>
-            <a href="#" class="list-group-item list-group-item-action">O'quvchilar</a>
+            <a href="#" id="btnStudents" class="list-group-item list-group-item-action" onclick="showStudent()">O'quvchilar</a>
           </div>
     </div>
 
@@ -31,10 +31,9 @@
                 </ul>
             </div>
         </header>
-        <div id="content" class="content p-5">
+        <div id="contentTeacher" class="content p-5">
             <div class="d-flex justify-content-between">
-                <h2>O'qituvchilar:</h2>
-                <h2 id="selected"></h2>
+                <h2>O'qituvchilar</h2>
             </div>
             <table class="table table-success table-striped">
                 <thead>
@@ -67,6 +66,49 @@
                     <td>Kamalova</td>
                     <td>Ingliz tili</td>
                     <td><button class="btn btn-success" onclick="showAddress('Olmazor')">Manzil</button></td>
+                  </tr>
+                </tbody>
+              </table>
+        </div>
+        <div id="contentStudent" class="content p-5">
+            <div class="d-flex justify-content-between">
+                <h2>O'quvchilar</h2><br>
+                <form class="d-flex" role="search">
+                  <input id="input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button id="submit" class="btn btn-outline-success" type="button" onclick="alertStudents()">Search</button>
+                </form>
+            </div>
+            <table class="table table-success table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Ism</th>
+                    <th scope="col">Familiya</th>
+                    <th scope="col">Fan</th>
+                    <th scope="col">Manzil</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Muhammad</td>
+                    <td>Numonov</td>
+                    <td>Informatika</td>
+                    <td><button class="btn btn-success" onclick="showAddress('Jizzax')">Manzil</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Akmal</td>
+                    <td>Rashidov</td>
+                    <td>Matematika</td>
+                    <td><button class="btn btn-success" onclick="showAddress('Toshkent')">Manzil</button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Visola</td>
+                    <td>Avazova</td>
+                    <td>Ingliz tili</td>
+                    <td><button class="btn btn-success" onclick="showAddress('Samarqand')">Manzil</button></td>
                   </tr>
                 </tbody>
               </table>

@@ -12,9 +12,13 @@
     <div id="sidebar" class="px-4 py-5 hide">
         <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                O'qituvchilar
+                Bosh sahifa
             </a>
-            <a href="#" class="list-group-item list-group-item-action">O'quvchilar</a>
+            <a href="#" class="list-group-item list-group-item-action">O'qituvchilar</a>
+            <a href="#" class="list-group-item list-group-item-action">Xodimlar</a>
+            <a href="#" class="list-group-item list-group-item-action">Fanlar</a>
+            <a href="#" class="list-group-item list-group-item-action">Xonalar</a>
+            <a href="#" class="list-group-item list-group-item-action">Dars Jadvallari</a>
           </div>
     </div>
 
@@ -33,43 +37,29 @@
         </header>
         <div id="content" class="content p-5">
             <div class="d-flex justify-content-between">
-                <h2>O'qituvchilar:</h2>
+                <h2>Bo'limlar:</h2>
                 <h2 id="selected"></h2>
             </div>
-            <table class="table table-success table-striped">
-                <thead>
-                  <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Ism</th>
-                    <th scope="col">Familiya</th>
-                    <th scope="col">Fan</th>
-                    <th scope="col">Manzil</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row">1</th>
-                    <td>Abbos</td>
-                    <td>Aliboev</td>
-                    <td>Informatika</td>
-                    <td><button class="btn btn-success" onclick="showAddress('Chilonzor')">Manzil</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">2</th>
-                    <td>Rustam</td>
-                    <td>Akmalov</td>
-                    <td>Matematika</td>
-                    <td><button class="btn btn-success" onclick="showAddress('Yunusobod')">Manzil</button></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">3</th>
-                    <td>Odina</td>
-                    <td>Kamalova</td>
-                    <td>Ingliz tili</td>
-                    <td><button class="btn btn-success" onclick="showAddress('Olmazor')">Manzil</button></td>
-                  </tr>
-                </tbody>
-              </table>
+            <div class="row text-center fw-bold mt-4" id="cards">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="shadow bg-white rounded p-5">O'qituvchilar</div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="shadow bg-white rounded p-5">O'quvchilar</div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="shadow bg-white rounded p-5">Xodimlar</div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="shadow bg-white rounded p-5">Fanlar</div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="shadow bg-white rounded p-5">Xonalar</div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="shadow bg-white rounded p-5">Dars Jadvallari</div>
+                </div>
+            </div>
         </div>
     </div>
     
